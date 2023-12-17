@@ -1,0 +1,80 @@
+# VS Code things
+.vscode/
+
+# My things
+A Help List/
+Z Syllabus & program files/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Build files
+*.make
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+build/
+Debug/
+Release/
+
+# Dependency directories
+deps/
+
+# IDE/Editor specific files
+*.swp
+*~
+.DS_Store
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# User-specific files
+*.user
+*.userprefs
+
+# System-specific generated files
+*.sdf
+*.opensdf
+*.suo
+*.opendb
+*.vcxproj.*

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1583180351 source:c:\users\candr\onedrive\documents\c++\ch15\pr15-01.cpp
+	"inheritance4.h"
+	<iostream>
+
+1583181361 c:\users\candr\onedrive\documents\c++\ch15\inheritance4.h
+	<string>
+	<memory>
+
+1583181185 source:c:\users\candr\onedrive\documents\c++\ch15\15-1 project\main.cpp
+	<iostream>
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1581573022 source:c:\users\candr\onedrive\documents\c++\personstruct\personstruct\person.cpp
+	"Person.h"
+	<algorithm>
+
+1581569649 c:\users\candr\onedrive\documents\c++\personstruct\personstruct\person.h
+	<iostream>
+	<string>
+
+1581573352 source:c:\users\candr\onedrive\documents\c++\personstruct\personstruct\main.cpp
+	<fstream>
+	"Person.h"
+

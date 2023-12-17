@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1579676871 source:c:\users\candr\onedrive\documents\c++\car project\car.cpp
+	<iostream>
+	"Car.h"
+
+1579676462 c:\users\candr\onedrive\documents\c++\car project\car.h
+
+1579676889 source:c:\users\candr\onedrive\documents\c++\car project\car project.cpp
+	<iostream>
+	<string>
+	"Car.h"
+
