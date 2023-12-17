@@ -17,7 +17,7 @@ int main()
         cout << k+1 << ": ";                      //display the current line
         for (int j = 0; j < v.size(); j++)
             cout << v[j] << "  " ;               //loop through the vector and displays its contents
-        cout << endl;
+        cout << "\n";
         rotateLeft(v);                           //call the rotateLeft function
     }
 

@@ -41,7 +41,7 @@ Base *optr;
 Derived object;
 
 optr = &objects;
-cout << optr->getVar() << endl;
+cout << optr->getVar() << "\n";
 
 
 return 0;

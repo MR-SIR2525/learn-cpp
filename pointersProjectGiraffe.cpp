@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 /*
-    cout << "Age: " << &age << endl;
-    cout << "GPA: " << &gpa << endl;
-    cout << "Name: " <<&name << endl;
+    cout << "Age: " << &age << "\n";
+    cout << "GPA: " << &gpa << "\n";
+    cout << "Name: " <<&name << "\n";
 */
 
 int main()
@@ -15,8 +15,8 @@ int main()
     string name = "Mike";
     string *PName = &name;
 
-    cout << pAge << endl;
-    cout << *pAge << endl;
+    cout << pAge << "\n";
+    cout << *pAge << "\n";
 
     return 0;
 }

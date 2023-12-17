@@ -61,7 +61,7 @@ int main()
         cout << "Current Speed: " << myCar.getSpeed()
              << " mph. \n";
     }
-    cout << "\n\"Your vehicle has stopped.\"" << endl;
+    cout << "\n\"Your vehicle has stopped.\"\n";
 
     return 0;
 }

@@ -50,7 +50,7 @@ class Car
       {
           if (speed >=5)
             speed -=5;
-            //cout << "Speed decreased by 5 mph." << endl;
+            //cout << "Speed decreased by 5 mph.\n";
           else
             speed = 0;
       }

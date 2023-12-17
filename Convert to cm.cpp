@@ -16,7 +16,7 @@ int main()
 
     cout << setprecision(4);
     cout << fixed << showpoint;
-    cout << "Value in cemtimeters: " << measurement << endl;
+    cout << "Value in cemtimeters: " << measurement << "\n";
 
     return 0;
 }

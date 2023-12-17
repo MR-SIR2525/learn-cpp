@@ -68,4 +68,4 @@ int *ptr = arr;
 
 for (int x = 0; x < 100; x++)
 
-                cout << *(ptr + x) << endl;
+                cout << *(ptr + x) << "\n";

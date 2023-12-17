@@ -34,8 +34,8 @@ int main()
 {
     shared_ptr<First> object1 = make_shared<First>();
     shared_ptr<Second> object2 = make_shared<Second>();
-    cout << object1->getVal() << endl;
-    cout << object2->getVal() << endl;
+    cout << object1->getVal() << "\n";
+    cout << object2->getVal() << "\n";
 
     return 0;
 }

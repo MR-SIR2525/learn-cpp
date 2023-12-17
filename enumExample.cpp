@@ -10,7 +10,7 @@ int main()
     Day today;
     today = static_cast<Day>(2);
 
-    //cout << today << endl;
+    //cout << today << "\n";
     switch(today)
     {
         case MONDAY: cout << "Monday\n";
@@ -26,7 +26,7 @@ int main()
     }
 
     for (int workday=MONDAY; workday <= FRIDAY; workday++)
-        cout << workday+1 << endl;
+        cout << workday+1 << "\n";
 
     return 0;
 }

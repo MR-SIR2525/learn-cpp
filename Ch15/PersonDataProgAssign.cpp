@@ -1,7 +1,7 @@
 /***********************************************************************************************
  * Student name: Andrew Blythe
  * Program name:
- * Program description:
+ * Program description: 
  * Date: 4/10/2021
  *************************************************************************************************/
 #include <iostream>
@@ -78,7 +78,8 @@ public:
         return phone;
     }
 };
-// pass this: (lastname, firstname, address, city, state, zipcode, phone, customerNumber, joinMailingList)
+
+// Parameters: `lastname`, `firstname`, `address`, `city`, `state`, `zipcode`, `phoneNumber`, `customerNumber`, `joinMailingList`
 class CustomerData : public PersonData
 {
     // TO DO
@@ -150,7 +151,7 @@ int main()
     while (!cin || numCustomers < 0)
     {
         fixInput();
-        cout << "\n***Invalid entry***\n(Number of customers should be an integer greater than zero.)" << endl
+        cout << "\n***Invalid entry***\n(Number of customers should be an integer greater than zero.)\n"
              << "How many customers will you be entering info for?\n";
         cin >> numCustomers;
     }
@@ -198,7 +199,7 @@ int main()
         while (!cin || toupper(list) != 'Y' && toupper(list) != 'N')
         {
             fixInput();
-            cout << "Invalid entry. Type Y or N." << endl;
+            cout << "Invalid entry. Type Y or N.\n";
             cin >> list;
         }
 
@@ -211,17 +212,17 @@ int main()
         customersArr.push_back(make_shared<CustomerData>(lname, fname, address, city, state, zip, phone,
                                                          customerIDnum, mailingListYN));
 
-        cout << "\n\nSummary of your information:" << endl
-             << endl;
-        cout << customersArr[i]->getLastName() << ", " << customersArr[i]->getFirstName() << endl
-             << "Customer ID #" << customerIDnum << endl
-             << endl;
+        cout << "\n\nSummary of your information:\n"
+             << "\n";
+        cout << customersArr[i]->getLastName() << ", " << customersArr[i]->getFirstName() << "\n"
+             << "Customer ID #" << customerIDnum << "\n"
+             << "\n";
 
-        cout << "Phone: " << customersArr[i]->getPhone() << endl;
+        cout << "Phone: " << customersArr[i]->getPhone() << "\n";
 
         cout << "Address: " << customersArr[i]->getAddress() << ", " << customersArr[i]->getCity()
-             << ", " << customersArr[i]->getState() << "  " << customersArr[i]->getZip() << endl
-             << endl;
+             << ", " << customersArr[i]->getState() << "  " << customersArr[i]->getZip() << "\n"
+             << "\n";
 
         cout << "Opted into mailing list: ";
         if (customersArr[i]->getMailingListStatus() == true)
@@ -229,10 +230,9 @@ int main()
         else
             cout << "No";
 
-        cout << endl
-             << endl;
+        cout << "\n\n";
         system("pause");
-        cout << endl;
+        cout << "\n";
     }
 
     return 0;

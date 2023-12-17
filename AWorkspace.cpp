@@ -60,7 +60,7 @@ int main()
     cout << "enter num:  ";
     cin >> num;
 
-    cout << factorial_my(num) << endl;
+    cout << factorial_my(num) << "\n";
 
     int numbers[5] = {5, 10, 16, 22, 30};
     cout << "sum of nums " << sumArray(numbers, 5);

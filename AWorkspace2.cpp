@@ -17,7 +17,7 @@ void showMe(int arg) // #5 (checkpoint 14.3 pg 935)
         showMe(++arg);
     }
     else
-        cout << arg << endl;
+        cout << arg << "\n";
 }
 
 void getnumber(int &input) // #4
@@ -42,7 +42,7 @@ void output(vector<T> v)
     {
         cout << v[i] << " ";
     }
-    cout << endl;
+    cout << "\n";
 }
 
 template <class T>
