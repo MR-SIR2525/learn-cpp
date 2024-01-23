@@ -29,8 +29,9 @@ int main()
         cout << measurement << " cm\n";
     } 
     else 
-        cout << "Input must be a number." << "\n";
+        cout << "\nError:  Input must be a number." << "\n";
 
+    cout << "\n";
     return 0;
 }
 
