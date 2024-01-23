@@ -1,7 +1,7 @@
 /***********************************************************************************************
  * Student name: Andrew Blythe
  * Program name: Workspace & Template C++
- * Program description: 
+ * Program description: from time at PRCC
  * Date: 
 *************************************************************************************************/ 
 #include <iostream>
